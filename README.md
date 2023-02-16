@@ -1,25 +1,25 @@
 # MechaCar_Statistical_Analysis
 
-A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
-
-In this challenge, you’ll help Jeremy and the data analytics team do the following:
-
-Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes.
-Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots.
-Run t-tests to determine if the manufacturing lots are statistically different from the mean population.
-Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
-
-The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using your knowledge of R, you’ll design a linear model that predicts the mpg of MechaCar prototypes using several variables from the MechaCar_mpg.csv file. Then, you’ll write a short interpretation of the multiple linear regression results in the README.md.
-
-After you’ve completed the technical analysis for each part, provide a short summary of the results in the README.md of the analysis. For the final part, you’ll write up a short description of the study design for additional statistical analysis. In the written summaries, we would like you to think critically about your analysis, not demonstrate proficiency of automotive manufacturing.
+This project involves completing the following tasks:
+* Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes.
+* Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots.
+* Run t-tests to determine if the manufacturing lots are statistically different from the mean population.
+* Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, write a summary interpretation of the findings.
 
 ## Linear Regression to Predict MPG
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+<img width="300" alt="Deliverable1 1_Image" src="https://user-images.githubusercontent.com/114960958/219476357-596df8ae-a576-4c0d-8635-6d62d67f190e.png">
 
-Is the slope of the linear model considered to be zero? Why or why not?
+# Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+# Is the slope of the linear model considered to be zero? Why or why not?
+
+# Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+
+From the data, 3/5 do not have great influence as their p-value is greater than the significance level (0.05), we could say the (we reject the null hypothesis). The ones that could have an impact are: ground clearance and vehicle lenght, with p-values of 5.21e-08and 2.60e-12, respectively (statistically significant to say that fail to reject the null hypothesis).
+
+This shows theres a probability that this values are in fact parameters that greatly affect the mpg and not be due to random chance. The absolute value of r was 0.7149 with p-value (5.35e-11) < 0.05, therefore we could say it represents a strong Pearson's correlation, the slope of the linear model is not zero and this linear model could be used to predict the mpg.
 
 ## Summary Statistics on Suspension Coils
 
