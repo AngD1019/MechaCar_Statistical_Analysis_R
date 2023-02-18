@@ -26,10 +26,7 @@ This shows theres a probability that this values are in fact parameters that gre
 ## Summary Statistics on Suspension Coils
 
 write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
-
-![lot_summary_image](https://user-images.githubusercontent.com/114960958/219894412-6dd5fa08-4f40-459c-9cb2-0696de02defd.png)
-
-<img width="213" alt="total_summary_image" src="https://user-images.githubusercontent.com/114960958/219894425-2efd7cbf-946e-4c7f-9835-94d89ef000ee.png">
+<img width="261" alt="lot_summary_image" src="https://user-images.githubusercontent.com/114960958/219895074-4d4c6abf-7862-4a1c-84e1-ff9f746d1c04.png">
 
 <img width="159" alt="total_summary_image" src="https://user-images.githubusercontent.com/114960958/219894844-4c4ea1e9-e060-4033-a61e-4b882211d761.png">
 
