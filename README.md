@@ -6,7 +6,8 @@ This project involves completing the following tasks:
 * Run t-tests to determine if the manufacturing lots are statistically different from the mean population.
 * Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, write a summary interpretation of the findings.
 
-## Linear Regression to Predict MPG
+## Deliverable 1:
+### Linear Regression to Predict MPG
 
 <img width="300" alt="Deliverable1 1_Image" src="https://user-images.githubusercontent.com/114960958/219476357-596df8ae-a576-4c0d-8635-6d62d67f190e.png">
 
@@ -25,5 +26,11 @@ This shows theres a probability that this values are in fact parameters that gre
 ## Summary Statistics on Suspension Coils
 
 write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
+
+![lot_summary_image](https://user-images.githubusercontent.com/114960958/219894412-6dd5fa08-4f40-459c-9cb2-0696de02defd.png)
+
+<img width="213" alt="total_summary_image" src="https://user-images.githubusercontent.com/114960958/219894425-2efd7cbf-946e-4c7f-9835-94d89ef000ee.png">
+
+
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
