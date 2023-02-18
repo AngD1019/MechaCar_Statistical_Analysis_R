@@ -7,7 +7,7 @@ This project involves completing the following tasks:
 * Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, write a summary interpretation of the findings.
 
 ## Deliverable 1:
-### Linear Regression to Predict MPG
+## Linear Regression to Predict MPG
 
 <img width="300" alt="Deliverable1 1_Image" src="https://user-images.githubusercontent.com/114960958/219476357-596df8ae-a576-4c0d-8635-6d62d67f190e.png">
 
@@ -23,6 +23,7 @@ From the data, 3/5 do not have great influence as their p-value is greater than 
 
 This shows theres a probability that this values are in fact parameters that greatly affect the mpg and not be due to random chance. The absolute value of r was 0.7149 with p-value (5.35e-11) < 0.05, therefore we could say it represents a strong Pearson's correlation, the slope of the linear model is not zero and this linear model could be used to predict the mpg.
 
+## Deliverable 2
 ## Summary Statistics on Suspension Coils
 
 write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
@@ -35,3 +36,18 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 ## Deliverable 3
 ## T-Tests on Suspension Coils
+
+![t_test_lot1](https://user-images.githubusercontent.com/114960958/219901603-22f4fbf9-4a5e-4990-8a5f-e9953172dff2.png)
+
+<img width="345" alt="t_test_lot2" src="https://user-images.githubusercontent.com/114960958/219901600-aae28eb0-b8e3-41a0-b25b-9d79faed57c1.png">
+
+<img width="348" alt="t_test_lot3" src="https://user-images.githubusercontent.com/114960958/219901606-f1a1e2d2-8c6d-4e16-af24-128f75ef8965.png">
+
+## Deliverable 4
+## Study Design: MechaCar vs Competition
+
+
+
+
+
+
