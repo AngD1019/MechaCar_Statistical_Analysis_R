@@ -37,17 +37,35 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ## Deliverable 3
 ## T-Tests on Suspension Coils
 
-![t_test_lot1](https://user-images.githubusercontent.com/114960958/219901603-22f4fbf9-4a5e-4990-8a5f-e9953172dff2.png)
+Lot 1
+The p value is 1.568e-11 which is greater than 0.05 and therefore not significant and the null hypothesis can be accepted.
+
+![t_test_lot1](https://user-images.githubusercontent.com/114960958/219901731-9657ae8a-0a9f-445e-98e0-a4a013a0cf98.png)
+
+Lot 2
+The p value is 0.0005911 which is less than 0.05 and therefore significant so the null hypothesis can be rejected.
 
 <img width="345" alt="t_test_lot2" src="https://user-images.githubusercontent.com/114960958/219901600-aae28eb0-b8e3-41a0-b25b-9d79faed57c1.png">
+
+Lot 3
+The p value is 0.1589 which is greater than 0.05 and therefore not significant so the null hypothesis can be accepted.
 
 <img width="348" alt="t_test_lot3" src="https://user-images.githubusercontent.com/114960958/219901606-f1a1e2d2-8c6d-4e16-af24-128f75ef8965.png">
 
 ## Deliverable 4
 ## Study Design: MechaCar vs Competition
 
+Description: There are several factors that can be used to compare MechaCar performance to that of the competition, such as cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating. The metric that I am going to test in this study is the cost of these cars, specifically the how MechaCar cars are priced in relation to factors such as the options that they provide, the level of performance, fuel efficiency, etc.
 
+Null Hypothesis (Ho): MechaCar vehicles are priced appropriately (afforable yet not underselling) based on its performance of key factors for its genre.
+Alternative Hypothesis (Ha): MechaCar vehicles are not priced appropriately (priced too high or too low) based on performance of key factors for its genre.
 
+Statistical Test Used: Since we are comparing the means from two populations (the MechaCar dataset and that of another vehicle company or of generaly competitors in same category), we can use two sample t test. To know if one population mean is greater than or less than the other, we can perform a one-tailed t-test.
 
-
-
+The data needed to run the statistical test
+* The mean of both samples
+* The standard deviation of both samples
+* Data in each group must be obtained via a random sample from the population.
+* Data in each group are normally distributed.
+* Data values are continuous.
+* The variances for the two independent groups are equal.
