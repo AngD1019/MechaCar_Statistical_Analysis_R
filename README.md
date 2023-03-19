@@ -1,4 +1,4 @@
-# MechaCar_Statistical_Analysis
+# MechaCar Statistical Analysis
 
 This project involves completing the following tasks:
 * Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes.
